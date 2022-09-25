@@ -14,7 +14,7 @@ Show a toast message like Android.</br>
 ToastWPF.dll</br>
 라이브러리 참조추가</br>
 add dll reference</br>
-`using ToastWPF`
+`using ToastWPF;`
 
 토스트 띄우기.</br>
 Show message</br>
