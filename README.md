@@ -9,10 +9,10 @@
 <img width="50%" src="https://user-images.githubusercontent.com/60687214/192128311-bb4f0e77-5570-4c51-859d-0c842780760f.gif"/>
 
 <p>출력</p>
-<p>`Toast.Show("Message to show");`</p>
+`Toast.Show("Message to show");`
 </p>
 <p>출력 - 시간 지정</p>
-<p>`Toast.Show("Message to show", 1500);`</p>
-</p>
+`Toast.Show("Message to show", 1500);`
+
 <p>위치 설정</p>
-<p>`Toast.SetPosition(owner: this, horizontalPos: 0.5, verticalPos: 0.8);`</p>
+`Toast.SetPosition(owner: this, horizontalPos: 0.5, verticalPos: 0.8);`
