@@ -8,11 +8,12 @@
 
 <img width="50%" src="https://user-images.githubusercontent.com/60687214/192128311-bb4f0e77-5570-4c51-859d-0c842780760f.gif"/>
 
-출력</br>
+Show message</br>
 `Toast.Show("Message to show");`
 
-출력 - 시간 지정(단위 ms)</br>
+Show message with set time(Millisecond)</br>
 `Toast.Show("Message to show", 1500);`
 
-위치 설정</br>
+Set position
+(Applied from the next message.)</br>
 `Toast.SetPosition(owner: this, horizontalPos: 0.5, verticalPos: 0.8);`
