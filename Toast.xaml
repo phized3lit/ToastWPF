@@ -1,0 +1,32 @@
+﻿<Window x:Class="ToastWPF.Toast"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToastWPF"
+        mc:Ignorable="d"
+        x:Name="window_parent"
+        Title="Toast" SizeToContent="WidthAndHeight" WindowStyle="None" AllowsTransparency="True" 
+        Topmost="True" ShowInTaskbar="False" ShowActivated="False" WindowStartupLocation="CenterOwner"
+        Background="{x:Null}">
+    <Window.DataContext>
+        <Binding RelativeSource="{RelativeSource self}"/>
+    </Window.DataContext>
+    <Window.Resources>
+        <ResourceDictionary>
+            <Storyboard x:Key="fadeInWindow" TargetName="window_parent">
+                <DoubleAnimation Duration="0:0:0.5" Storyboard.TargetProperty="Opacity" To="0.7" />
+            </Storyboard>
+            <Storyboard x:Key="fadeOutWindow" TargetName="window_parent">
+                <DoubleAnimation Duration="0:0:0.8" Storyboard.TargetProperty="Opacity" To="0" />
+            </Storyboard>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Border Background="Black" CornerRadius="15" BorderThickness="0">
+        <TextBlock Foreground="White" FontSize="18" Margin="20 10"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="{Binding Message}"
+                   />
+    </Border>
+</Window>
