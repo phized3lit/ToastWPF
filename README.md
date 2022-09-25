@@ -4,10 +4,9 @@
 * WPF UserControlLibrary
 * C#
 * .Net6.0
-(C# / .Net6.0 / WPF UserControlLibrary)
 
-안드로이드와 유사한 토스트 메시지를 띄웁니다.</br>
-Show a toast message like Android.</br>
+<h3>안드로이드와 유사한 토스트 메시지를 띄웁니다.</h3>
+<h3>Show a toast message like Android.</h3>
 
 <img width="50%" src="https://user-images.githubusercontent.com/60687214/192128310-552a2f81-372c-41aa-bcef-9836651c8b21.gif"/>
 
