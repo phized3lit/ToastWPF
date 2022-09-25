@@ -11,7 +11,7 @@
 출력</br>
 `Toast.Show("Message to show");`
 
-출력 - 시간 지정</br>
+출력 - 시간 지정(단위 ms)</br>
 `Toast.Show("Message to show", 1500);`
 
 위치 설정</br>
