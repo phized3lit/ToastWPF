@@ -1,7 +1,9 @@
 # ToastMessageWPF
 
-토스트 메시지</br>
-Toast Message</br>
+
+* WPF UserControlLibrary
+* C#
+* .Net6.0
 (C# / .Net6.0 / WPF UserControlLibrary)
 
 안드로이드와 유사한 토스트 메시지를 띄웁니다.</br>
