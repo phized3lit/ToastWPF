@@ -1,8 +1,10 @@
 # ToastWPF
 
-토스트 메시지 (C# / .Net6.0 / WPF)
+토스트 메시지 Toast Message
+(C# / .Net6.0 / WPF)
 
 안드로이드와 유사한 토스트 메시지를 띄웁니다.
+Show a toast message like Android.
 
 <img width="50%" src="https://user-images.githubusercontent.com/60687214/192128310-552a2f81-372c-41aa-bcef-9836651c8b21.gif"/>
 
@@ -11,7 +13,8 @@
 Show message</br>
 `Toast.Show("Message to show");`
 
-Show message with set time(Millisecond)</br>
+Show message with set time
+(Millisecond)</br>
 `Toast.Show("Message to show", 1500);`
 
 Set position
