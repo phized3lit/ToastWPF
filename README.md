@@ -11,6 +11,11 @@ Show a toast message like Android.</br>
 
 <img width="50%" src="https://user-images.githubusercontent.com/60687214/192128311-bb4f0e77-5570-4c51-859d-0c842780760f.gif"/>
 
+ToastWPF.dll</br>
+라이브러리 참조추가</br>
+add dll reference</br>
+`using ToastWPF`
+
 토스트 띄우기.</br>
 Show message</br>
 `Toast.Show("Message to show");`
