@@ -1,4 +1,4 @@
-# ToastWPF
+# ToastMessageWPF
 
 토스트 메시지</br>
 Toast Message</br>
