@@ -1,10 +1,11 @@
 # ToastWPF
 
-토스트 메시지 Toast Message
+토스트 메시지</br>
+Toast Message</br>
 (C# / .Net6.0 / WPF)
 
-안드로이드와 유사한 토스트 메시지를 띄웁니다.
-Show a toast message like Android.
+안드로이드와 유사한 토스트 메시지를 띄웁니다.</br>
+Show a toast message like Android.</br>
 
 <img width="50%" src="https://user-images.githubusercontent.com/60687214/192128310-552a2f81-372c-41aa-bcef-9836651c8b21.gif"/>
 
