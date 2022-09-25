@@ -25,3 +25,6 @@ Set position</br>
 (다음 메시지 부터 적용 됨.)</br>
 (Applied from the next message.)</br>
 `Toast.SetPosition(owner: this, horizontalPos: 0.5, verticalPos: 0.8);`
+
+`horizontalPos : 0 = left, 0.5 = center, 1 = right`
+`verticalPos : 0 = top, 0.5 = center, 1 = bottom`
