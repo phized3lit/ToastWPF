@@ -27,8 +27,6 @@ Show message with set time
 
 위치 지정</br>
 Set position</br>
-(다음 메시지 부터 적용 됨.)</br>
-(Applied from the next message.)</br>
 `Toast.SetPosition(owner: this, horizontalPos: 0.5, verticalPos: 0.8);`
 
 [horizontalPos] : left(0) ~ center(0.5) ~ right(1)</br>
