@@ -84,18 +84,18 @@ namespace ToastWPF
             Instance.Message = message;
             Instance.DurationMs = durationMs;
 
-            //Reset
-            Instance.Reset();
-
-            //타이머 시작. 사용자 입력 시간이 없으면 계산.
-            Instance.Start(Instance.DurationMs ?? CalcShowingTimeMs(message.Length));
-
-            //윈도우 위치 업데이트
-            Instance.UpdatePosition();
-
             //UI 쓰레드에서 실행
             Instance.Dispatcher.InvokeAsync(() =>
             {
+                //Reset
+                Instance.Reset();
+
+                //타이머 시작. 사용자 입력 시간이 없으면 계산.
+                Instance.Start(Instance.DurationMs ?? CalcShowingTimeMs(message.Length));
+
+                //윈도우 위치 업데이트
+                Instance.UpdatePosition();
+
                 Instance.Show();
             });
         }
